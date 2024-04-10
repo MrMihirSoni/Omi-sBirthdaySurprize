@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 1rem auto;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.mainDiv{
+  max-width: 420px;
+}
+
+.photo{
+  width: 80%;
+  filter: drop-shadow(5px 5px 15px  #000000);
+}
+
+.logo {
+  height: 10em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.greet{
+  font-size: 1.1rem;
+  font-weight: bold;  
+  color: aqua;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.messageDiv{
+  margin: 0 0.5rem;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+
+}
+
+.message{
+  font-size: 0.8rem;
+}
+
+.footer{
+  margin-top: 2rem;
+  font-size: 0.6rem;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 3s;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
