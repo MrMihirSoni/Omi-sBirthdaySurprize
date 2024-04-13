@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import thinking from "../assets/Thinking.png";
 import { CountContext } from "../contexts/CounterContext";
 
@@ -7,6 +7,9 @@ const Second = () => {
   const handleClick = () => {
     setCount(count + 1);
   };
+  useEffect(() => {
+    document.title = "What's Special";
+  }, []);
   return (
     <div className="pages">
       <img src={thinking} alt="" />

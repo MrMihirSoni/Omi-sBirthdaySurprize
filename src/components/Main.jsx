@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import photo1 from "../assets/Photo1.png";
 import photo2 from "../assets/Photo2.png";
 import photo3 from "../assets/Photo3.png";
@@ -19,6 +19,7 @@ const Main = () => {
   };
 
   useEffect(() => {
+    document.title = "Happy Birthday Omi!!!!";
     const timer = setTimeout(changeState, 3000);
     return () => clearTimeout(timer);
   }, [count]);
