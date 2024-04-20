@@ -49,18 +49,11 @@ const Main = () => {
       <p className="greet">🎉🎂 Happy Birthday, Omi! 🎂🎉</p>
       <div className="messageDiv">
         <p className="message">
-          On this special day, I want to take a moment to celebrate you, my dear
-          friend. As the sun rises on another year of your life, it brings with
-          it countless reasons to rejoice and cherish the wonderful person you
-          are.
+          So, you've turned 25 today, and guess what? Nothing's changed! Well, almost nothing. You've definitely leveled up in wisdom today—growing more 'buddhi' by the minute! 😄
         </p>
 
         <p className="message">
-          Omi, you possess a unique blend of kindness, strength, and warmth that
-          brightens the lives of everyone around you. Your infectious laughter
-          fills the room with joy, and your unwavering support has been a source
-          of strength for me through both the good times and the challenging
-          ones.
+        It's been nine years since we first connected, yet despite never meeting in person, our bond has blossomed into a beautiful friendship. Since 2016, we've cultivated a deep connection that feels like we've only just begun our journey together. And this friendship will never break; it's woven with the threads of trust, understanding, and genuine care.
         </p>
 
         <p className="message">
@@ -91,6 +84,10 @@ const Main = () => {
           Happy Birthday, Omi! Here's to another year of laughter, love, and
           unforgettable memories. Cheers to you, my dear friend, and to the
           beautiful soul that you are.
+        </p>
+
+        <p className="message" style={{color: "red", fontWeight: "bold"}}>
+        By the way, I thought I'd mention that those previous texts were created with ChatGPT's assistance. I can't take all the credit for those witty lines! 😄
         </p>
       </div>
       <img src={happyBirthday} className="logo" alt="" />
